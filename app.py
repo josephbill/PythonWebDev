@@ -24,3 +24,7 @@ print(foods)
 print(fruitTuple)
 print(fruits)
 
+x = "Joseph"
+y = "Mbugua"
+# concatenation of strings // joining strings together
+print(x + " " + y )
