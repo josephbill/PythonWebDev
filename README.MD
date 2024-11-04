@@ -103,6 +103,8 @@ A class will define , attributes(data) and methods(functions) thats the object w
 ### Object :
 An instance of a class 
 
+# string : everything is an object 
+
 Car (attributes)  : Class 
  - color , model , registration , yom , wheels , size , transmission
 
