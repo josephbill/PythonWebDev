@@ -52,10 +52,14 @@ print(f"{emp1.name} {emp1.salary}")
 
 class Payroll:
     def __init__(self, salary):
+        pass
 
 
 
-
+"""
+How can we utilize the objects created from the class blueprint 
+employee , to get the company's total payroll in class Payroll ? 
+"""
 
 
 
