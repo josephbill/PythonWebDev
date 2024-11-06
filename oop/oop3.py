@@ -44,17 +44,25 @@ print(employees)
 class Employee:
     def __init__(self, name, salary):
         self.name = name
-        self.salary = salary
-
-
-emp1 = Employee("Bob", "40000")
-print(f"{emp1.name} {emp1.salary}")
+        self.salary = int(salary)
 
 class Payroll:
-    def __init__(self, salary):
-        pass
+    def __init__(self):
+        self.employees = []
 
+    def add_employee(self,employee):
+        self.employees.append(employee)
 
+    def total_payroll(self):
+        return sum(employee.salary for employee in self.employees)
+
+emp1 = Employee("Bob", "40000")
+emp2 = Employee("Jane", "50000")
+print(f"{emp1.name} {emp1.salary}")
+payroll1 = Payroll()
+payroll1.add_employee(emp1)
+payroll1.add_employee(emp2)
+print(f"Total Payroll {payroll1.total_payroll()}")
 
 """
 How can we utilize the objects created from the class blueprint 

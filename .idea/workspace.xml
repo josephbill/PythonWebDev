@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19f02973-345d-4826-bce6-ba6f04d157ab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/oop/classmethod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/oopsummary/constructoroverload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/oopsummary/polymorphism.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/oopsummary/question8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/operatoroverloading.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/staticattributes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oop/oop3.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/oop3.py" afterDir="false" />
     </list>
@@ -67,7 +73,8 @@
       <workItem from="1730288152911" duration="3080000" />
       <workItem from="1730373498535" duration="6450000" />
       <workItem from="1730721186985" duration="8090000" />
-      <workItem from="1730805709128" duration="412000" />
+      <workItem from="1730805709128" duration="754000" />
+      <workItem from="1730891509383" duration="5179000" />
     </task>
     <servers />
   </component>
