@@ -115,6 +115,59 @@ Car (attributes)  : Class
  - Polymorphism  : means many forms and is used to perform a single action in different ways
  - Abstraction : exposing what is only essential
 
+## Object Relationships 
+Defining how different object can interact with one another 
+Common types relationships amongst objects 
+1. Association
+Description : A general relationship where one object uses another. Often described as a 'has a' relationship
+One object can hold reference to another
+
+Scenario 
+- Libraries and books : A lib has many books , but books can exist independently of a lib
+- Customer and orders : customer can place orders , and orders can be linked to a specific customer 
+
+2. Aggregation 
+Description : A specific type of association that represents a 'whole-part' relationship, where one part can exist independently of the
+whole 
+
+Scenario 
+- Team and player : a team can consist of multiple players but players can still exist without the team
+- Libraries and books : A lib has many books , but books can exist independently of a lib
+- School and teachers
+
+3. Composition 
+A stronger form of aggregation , the 'whole' owns the 'part' , the parts lifecycle is dependent on the whole. If the whole is destroyed 
+the parts are also destroyed 
+
+Scenario 
+- House and Room : A house consist of rooms if the house is demolished the rooms no longer exist 
+- Car and Engine : 
+- Payroll and Employee : 
+
+4. Inheritance 
+A relationship where one class inherits the properties and behaviour of another class , "is-a" relationship
+
+5. Dependency 
+One object relies on another to perform its function. "uses-a" relationship , one class uses another but does not own it
+
+   
+### SQL : Structured Query Language 
+the standard language for interacting with relational databases 
+1. Manage and manipulate data stored in tables 
+2. SQL supports the CRUD operations 
+3. Lightweight
+
+## RDBMS : SQlite 
+-Sqlite is a lightweight , serverless SQL database engine : great for small applications , 
+offline apps, or development use
+- Stores data in a single file. : making it easy for set up and access by code without a
+separate database server
+
+
+
+
+
+
 
 
 
